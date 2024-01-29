@@ -8,3 +8,9 @@ if(x % 2 == 0) {
 } else {
     alert("data bukan angka");
 }
+
+if (confirm("Apakah anda manusia ?")) {
+    location = "http://google.com";
+} else {
+    alert("anda dihukum harus menikah dengan malka");
+}
